@@ -36,7 +36,7 @@ export default ({
   description = "Leave your email address here and we'll get in touch with you to schedule a complementory meeting.",
   submitButtonText = "Contact Me",
   formAction = "#",
-  formMethod = "get",
+  formMethod = "POST",
   textOnLeft = true,
 }) => {
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
@@ -52,7 +52,8 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <Form action={formAction} method={formMethod}>
+            {/* <Form action={formAction} method={formMethod}> */}
+            <Form method={formMethod} data-netlify="true">
               <Input type="email" name="email" placeholder="Your Email Address" />
               <SubmitButton type="submit">{submitButtonText}</SubmitButton>
             </Form>

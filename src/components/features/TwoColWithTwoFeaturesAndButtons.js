@@ -101,7 +101,7 @@ export default ({
                 </Feature>
               ))}
             </Features>
-            <PrimaryButton as="a" href={primaryButtonUrl}>
+            <PrimaryButton as="a" href={primaryButtonUrl} target="_blank">
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>

@@ -97,7 +97,7 @@ export default ({
                 </Statistic>
               ))}
             </Statistics>
-            <PrimaryButton as="a" href={primaryButtonUrl}>
+            <PrimaryButton as="a" href={primaryButtonUrl} target="_blank">
               {primaryButtonText}
             </PrimaryButton>
           </TextContent>
