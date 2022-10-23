@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 // import { css } from "styled-components/macro"; //eslint-disable-line
 
-import Header, { NavLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
+// import Header, { NavLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 
 // const StyledHeader = styled(Header)`
