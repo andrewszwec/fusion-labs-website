@@ -65,14 +65,25 @@ export default () => {
   const cards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Ads Management",
-      description: "We create and manage ads that you need, from creation to deployment. Lorem ipsum donor sit amet consicou."
+      title: "Customer Discovery",
+      description: "We work to discover your customers' needs and shape the product to match."
     },
-    { imageSrc: SupportIconImage, title: "Video Marketing" },
-    { imageSrc: CustomizeIconImage, title: "Customer Relation" },
-    { imageSrc: ReliableIconImage, title: "Product Outreach" },
-    { imageSrc: FastIconImage, title: "PR Campaign" },
-    { imageSrc: SimpleIconImage, title: "Product Expansion" }
+    { 
+      imageSrc: CustomizeIconImage, 
+      title: "Experimentation", 
+      description: "We run experiments to validate your hypothesis."
+    },
+    { 
+      imageSrc: ReliableIconImage, 
+      title: "Agile Scrum Master", 
+      description: "We are acredited agile scrum masters and can help improve delivery."
+    },
+    { 
+      imageSrc: FastIconImage, 
+      title: "Go to market", 
+      description: "We have years of experience in go-to-market strategies and will supercharge your product launch."
+    },
+    
   ];
 
   return (

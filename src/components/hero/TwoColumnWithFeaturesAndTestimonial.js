@@ -37,18 +37,18 @@ const CustomerCompany = tw.p`mt-1 text-sm text-gray-500`
 
 
 export default ({
-  heading = "Better, Faster and Cheaper Cloud.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  heading = "Launch products customers Love.",
+  description = "Discover customer needs, validate using experiments and shape your product.",
   imageSrc = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
   imageDecoratorBlob = true,
-  primaryButtonUrl = "https://google.com",
-  primaryButtonText = "Get Started",
+  primaryButtonUrl = "https://zcal.co/andrewszwec",
+  primaryButtonText = "Contact",
   buttonRounded = true,
-  features = ["Available in 7 Locations", "Premium Internet Backbone", "99.99% Uptime SLA"],
+  features = ["Customer discovery", "Experiments and feedback", "Remote delivery"],
   testimonial = {
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     customerName: "Charlotte Hale",
-    customerCompany: "Delos Inc."
+    customerCompany: "Francis"
   }
 }) => {
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;

@@ -49,12 +49,12 @@ export default ({
   subheading = "Our Expertise",
   heading = (
     <>
-      We have the most <span tw="text-primary-500">professional</span> marketing team.
+      We have the most <span tw="text-primary-500">professional</span> product team.
     </>
   ),
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  primaryButtonText = "See Our Portfolio",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonText = "Contact Us",
+  primaryButtonUrl = "https://zcal.co/andrewszwec",
   features = null,
   textOnLeft = true
 }) => {
@@ -68,7 +68,7 @@ export default ({
     {
       Icon: BriefcaseIcon,
       title: "Professionalism",
-      description: "We have the best professional marketing people across the globe just to work with you."
+      description: "We have the best professional product people across the globe just to work with you."
     },
     {
       Icon: MoneyIcon,

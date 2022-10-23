@@ -43,12 +43,12 @@ export default ({
   subheading = "Our Track Record",
   heading = (
     <>
-      We have been doing this <wbr /> since <span tw="text-primary-500">1999.</span>
+      We have been doing this <wbr /> since <span tw="text-primary-500">2017.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  description = "We use best practice customer discovery and feedback techniques to run experiements with your product and collect user responses to help shape your product.",
+  primaryButtonText = "Book meeting",
+  primaryButtonUrl = "https://zcal.co/andrewszwec",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,
   imageContainerCss = null,
@@ -61,18 +61,18 @@ export default ({
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
   //Change the statistics variable as you like, add or delete objects
   const defaultStatistics = [
-    {
-      key: "Clients",
-      value: "2282+"
-    },
-    {
-      key: "Projects",
-      value: "3891+"
-    },
-    {
-      key: "Awards",
-      value: "1000+"
-    }
+    // {
+    //   key: "Clients",
+    //   value: "2282+"
+    // },
+    // {
+    //   key: "Projects",
+    //   value: "3891+"
+    // },
+    // {
+    //   key: "Awards",
+    //   value: "1000+"
+    // }
   ];
 
   if (!statistics) statistics = defaultStatistics;
