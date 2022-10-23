@@ -53,8 +53,9 @@ export default ({
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
             {/* <Form action={formAction} method={formMethod}> */}
-            <Form method={formMethod} data-netlify="true">
+            <Form name="contact" method={formMethod} data-netlify="true" data-netlify-recaptcha="true">
               <Input type="email" name="email" placeholder="Your Email Address" />
+              <div data-netlify-recaptcha="true"></div>
               <SubmitButton type="submit">{submitButtonText}</SubmitButton>
             </Form>
           </TextContent>
