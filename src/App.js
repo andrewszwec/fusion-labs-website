@@ -1,5 +1,5 @@
-import React from "react";
-import GlobalStyles from 'styles/GlobalStyles';
+// import React from "react";
+// import GlobalStyles from 'styles/GlobalStyles';
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 /*
@@ -104,7 +104,7 @@ import ServiceLandingPage from "demos/ServiceLandingPage.js";
 // import MainLandingPage from "MainLandingPage.js";
 // import ThankYouPage from "ThankYouPage.js";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // export default function App() {
 //   // If you want to disable the animation just use the disabled `prop` like below on your page's component
