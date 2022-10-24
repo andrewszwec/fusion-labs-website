@@ -106,7 +106,7 @@ export default ({
    */
   useEffect(() => {
     window.gtag("js", new Date());
-    window.gtag("config", "UA-45799926-9");
+    window.gtag("config", "G-CV6EP58RQ9");
   }, [])
 
   const previewImageAnimationVariants = {
