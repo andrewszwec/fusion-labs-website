@@ -3,6 +3,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import {Container as ContainerBase } from "components/misc/Layouts.js"
 import logo from "../../images/logo.svg";
+import sustainDocUrl from "../../docs/sustainability-policy-fusion-labs.pdf";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
@@ -38,13 +39,13 @@ export default () => {
             <LogoImg src={logo} />
             <LogoText>Fusion Labs</LogoText>
           </LogoContainer>
-          {/* <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
+          <LinksContainer>
+            <Link href={sustainDocUrl}>Sustainability Policy</Link>
+            {/* <Link href="#">About</Link>
             <Link href="#">Contact Us</Link>
             <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
-          </LinksContainer> */}
+            <Link href="#">Reviews</Link> */}
+          </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
               <FacebookIcon />
